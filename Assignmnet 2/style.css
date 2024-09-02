@@ -158,7 +158,7 @@ a {
 /* header */
 
 .header {
-  padding: 20px 0 ;
+  padding: 20px 0;
 }
 .header img {
   width: 32px;
@@ -215,10 +215,65 @@ h2 {
   margin: 12px;
 }
 .arrow {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
   background-color: #69c6ba;
   color: white;
-  margin: 10px auto;
+  margin: 12px auto;
+}
+form {
+  background-color: white;
+  padding: 20px;
+  display: inline-block;
+  width: 70%;
+  margin: 32px auto;
+}
+label {
+  font-weight: 700;
+  font-size: 10px;
+  text-align: left;
+}
+.form-control {
+  border: 1px solid #cccc;
+  padding: 8px;
+  width: 100%;
+}
+.form-control1 {
+  border: 1px solid #cccc;
+  padding: 5px;
+}
+.check {
+  margin: 15px 0;
+}
+.checkin {
+  margin-right: 10px;
+}
+.form-control2 {
+  width: 50%;
+}
+.left-col {
+  flex: 0 1 30%;
+  display: block;
+  padding: 5px;
+}
+.right-col {
+  flex: 0 1 35%;
+  display: block;
+  padding: 5px;
+}
+.adult {
+  margin: 0 10px;
+}
+.btn {
+  width: 100%;
+  background-color: #69c6ba;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  border: 0;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-top: 50px;
 }
